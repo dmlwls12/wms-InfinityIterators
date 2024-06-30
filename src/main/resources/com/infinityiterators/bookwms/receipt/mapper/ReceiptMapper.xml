@@ -74,7 +74,7 @@
         INSERT INTO Stock
         (
         BookID,
-        InAmount
+        BookAmount
         )
         VALUES
         ( (select MAX(BookID) FROM Book),
